@@ -6,8 +6,6 @@
         "module": "commonjs",
         "target": "es5"
     },
-    "files": [
-    ],
     "exclude": [
       "node_modules"
     ]

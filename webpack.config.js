@@ -3,7 +3,7 @@ const failPlugin = require('webpack-fail-plugin')
 const tslint = require('tslint-loader')
 
 const isProd = process.env.NODE_ENV === 'production'
-let prodPlugins = []
+var prodPlugins = []
 
 //plugins that are only used for prod builds
 if (isProd) {
